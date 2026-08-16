@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue dans ideal roof
+{% endblock %}
+{% block content %}
+<h1># ideal-roof</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : paneir de courses:  fruit legumes, cereales riz pain, legumineuses, poissons gras ou maigres, oeufs viande blanche ou maigre, huile dolive de colza ou noix, noix amandes et oleagineux, graine de chia ou lin.
+tu manges pas de gateau hotdog sodas, pain blanc, vienoiserie, beignet
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
+<a href="/add_one_liste_courses_nourriture"> add one liste_courses_nourriture</a><a href="/add_one_list_item"> add one list_item</a><a href="/add_one_user"> add one user</a><a href="/add_one_country"> add one country</a><a href="/add_one_bedroom"> add one bedroom</a><a href="/add_one_musicgenre"> add one musicgenre</a><a href="/add_one_usersharemusicstyle"> add one usersharemusicstyle</a><a href="/add_one_usersharebed"> add one usersharebed</a>
