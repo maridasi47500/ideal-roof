@@ -1,7 +1,7 @@
 # ideal-roof
 
 💛 Is This Love – A House Full of Music
-Sous un toit, un lit, et tous les styles de musique réunis.
+Sous un toit, un lit, et tous les styles de musique et tous les légumes/ plats / nourritures réunis.
 🏠 Présentation
 
 Is This Love est un projet web imaginé comme une maison ouverte, construite avec ton framework préféré (Symfony, Rails, ou autre).
